@@ -20,6 +20,8 @@ from .wrappers import (
     ObservationWrapper,
 )
 
+# TODO: from .robots_digit import digit omponents
+
 from .robots import H1, H1Hand, H1Touch, H1Strong
 from .envs.cube import Cube
 from .envs.bookshelf import BookshelfSimple, BookshelfHard
